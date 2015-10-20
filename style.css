@@ -12,8 +12,10 @@ div ul li {
 }
 #top {
 	position: fixed;
-	width: 70%;
+	width: 72.3%;
 	background-color: #FFF5EE;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 #logo {
 	font-size: 36px;
