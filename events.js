@@ -25,6 +25,7 @@ var clearAll = document.getElementById("clear-all");
 clearAll.addEventListener("click", function () {
   // console.log("messageBoard should clear");
   messageBoard.innerHTML = "";
+  clearAll.disabled = true;
 });
 
 // DELETE INDIVIDUAL MESSAGE LINES
@@ -37,6 +38,9 @@ document.querySelector("body").addEventListener("click", function(event) {
     // event.target.parentElement.innerHTML = "";
     event.target.parentElement.setAttribute("hidden", true);
   }
+  // if (messageBoard.innerHTML.length < 1) {     // WORK ON THIS
+  // 	clearAll.disabled = true;
+  // }
 });
 
 // CHANGE COLOR THEME

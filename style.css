@@ -14,18 +14,23 @@ div ul li {
 	position: fixed;
 	width: 72.3%;
 	background-color: #FFF5EE;
-    left: 50%;
-    transform: translate(-50%, 0);
+    left: 50%;  /* ?? */
+    transform: translate(-50%, 0);  /* ?? */
 }
 #logo {
 	font-size: 36px;
 }
-#container {
+#logoImg {
+	margin-top: 0;
+}
+#container	 {
 	width: 70%;
-	margin: 0 auto 0 auto;
+	height: 330px;
+	margin: 20px auto 0 auto;
 	background-color: white;
 	border: 1px solid black;
-	padding: 15px 15px 200px 15px;
+	padding: 5px 15px 75px 15px;
+	border-radius: 15px;
 }
 #clear-all {
 	margin-left: 15px;
@@ -35,9 +40,10 @@ div ul li {
 	font-size: 1em;
 }
 #message-board {
-/*	margin-top: 20px;
-	height: 100%;*/
+	margin-top: 20px;
+	height: 150px;
 	font-size: 1em;
+	overflow: scroll;
 }
 #checkboxes {
 	margin-left: 15%;
